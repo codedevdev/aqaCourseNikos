@@ -2,7 +2,10 @@ package com.aqaCourseNikos;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.List;
 
 public class MainPage {
 
@@ -33,8 +36,26 @@ public class MainPage {
         tagName = driver.findElement(By.id("input-email")).getTagName();
         System.out.println(tagName);
 
+        String getText = "";
 
-        // 
+        getText = driver.findElement(By.xpath("(//div[@class='card-body']//p)[2]")).getText();
+        System.out.println(getText);
+
+        driver.findElement(By.linkText("Forgotten Password")).click();
+        String forgotPass = "";
+        forgotPass = driver.getTitle();
+
+        if(forgotPass.contentEquals(forgotPass)){
+            System.out.println("Tittle is correct");
+        }else{
+            System.out.println("Title isn't correct");
+        }
+
+        driver.findElement(By.partialLinkText("Add")).click();
+
+
+
+
 
 
 
