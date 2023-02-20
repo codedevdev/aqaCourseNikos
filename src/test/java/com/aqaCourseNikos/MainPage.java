@@ -1,3 +1,4 @@
+/*
 package com.aqaCourseNikos;
 
 import org.openqa.selenium.By;
@@ -10,7 +11,7 @@ import java.util.List;
 public class MainPage {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","F:/Lessons/aqaCourseNikos/chromedriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\webdrivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
 
@@ -62,3 +63,4 @@ public class MainPage {
     }
 
 }
+*/
