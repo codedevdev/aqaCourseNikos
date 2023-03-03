@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="342a1c39-47fb-4a6a-a9bb-71021f1a0176" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aqaCourseNikos/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aqaCourseNikos/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqaCourseNikos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aqaCourseNikos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/DragAndDrop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/KosterlKor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/VerAss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/WaitTraine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aqaCourseNikos/iFrameTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,15 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,6 +126,7 @@
       <workItem from="1676309039867" duration="1000" />
       <workItem from="1676310508787" duration="1094000" />
       <workItem from="1676311628594" duration="4665000" />
+      <workItem from="1677875298159" duration="540000" />
     </task>
     <servers />
   </component>
